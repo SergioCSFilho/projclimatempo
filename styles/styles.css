@@ -59,6 +59,10 @@ input#search {
   border: 0;
 }
 
+::placeholder {
+  color: var(--cinza);
+}
+
 button.btn-search {
   background-color: var(--azul);
   width: 162px;
@@ -71,4 +75,10 @@ button.btn-search {
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
+}
+
+.result {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--branco);
+  margin-top: 24px;
 }
