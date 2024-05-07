@@ -1,6 +1,7 @@
 * {
    margin: 0;
-   box-sizing: border-box; 
+   box-sizing: border-box;
+   background-color: var(--cinza); 
 }
 
 :root {
@@ -11,3 +12,4 @@
     --cinza-escuro: #545454;
     --cinza: #E1E1E5;
 }
+
