@@ -36,6 +36,10 @@ h1.title {
   font-family: Inter;
   font-size: 62px;
   font-weight: 700;
+  background: linear-gradient(180deg, #399dfa 0%, #134dd6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .form-container {
@@ -45,4 +49,26 @@ h1.title {
 .form-container form {
   display: flex;
   gap: 16px;
+}
+
+input#search {
+  width: 458px;
+  height: 62px;
+  border-radius: 4px;
+  appearance: none;
+  border: 0;
+}
+
+button.btn-search {
+  background-color: var(--azul);
+  width: 162px;
+  height: 62px;
+  border-radius: 4px;
+  color: white;
+  appearance: none;
+  border: 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
 }
