@@ -78,13 +78,14 @@ button.btn-search {
 }
 
 .result {
-  font-family: "Poppins", sans-serif;
-  background-color: var(--branco);
-  margin-top: 24px;
+  width: 636px;
+  height: 366px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.15);
 }
 
 div.container div.result span.condicao {
-  margin-top: 25px;
+  margin: 25px 0;
 }
 
 .result > span {
