@@ -8,7 +8,7 @@ function handleSearch(event) {
         condicao = document.querySelector(".result .condicao"); // Seleciona o elemento HTML onde a descrição do clima será exibida
 
 
-    const key = '871d125ee860db1237e1a338d4d543dc'; // Chave de acesso à API do OpenWeatherMap
+    const key = 'xxx'; // Chave de acesso à API do OpenWeatherMap
 
     // Faz uma requisição à API do OpenWeatherMap usando o nome da cidade como parâmetro
     axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${key}`)
