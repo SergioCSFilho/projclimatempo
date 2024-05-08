@@ -83,13 +83,19 @@ button.btn-search {
   margin-top: 24px;
 }
 
-.data {
+div.container div.result span.condicao {
+  margin-top: 25px;
+}
+
+.result > span {
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   margin-top: 47px;
   text-align: center;
+  display: inline-block;
+  width: 100%;
 }
 
 .cidade {
@@ -109,13 +115,3 @@ button.btn-search {
   text-align: center;
   margin-top: 3.71px;
 }
-
-.condicao {
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 27px;
-  text-align: center;
-  margin-top: 25.29px;
-}
-
